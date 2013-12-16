@@ -1,5 +1,5 @@
 #wrap {
-	width: 900px; 
+	width: 700px; 
 	margin: 0 auto; 
 }
 
@@ -16,7 +16,7 @@ body {
 #header {
 	width: 100%;
 	font-family: 'Belleza', sans-serif;
-	font-size: x-large;
+	font-size: large;
 	text-align: center;
 	color: #536c6f;
 }
