@@ -21,7 +21,7 @@
 		<img src="<%= album.art_url %>">
 		<% end %>
 
-	<h3><%= @album_name %></h3>
+	<h3><%= album.name %></h3>
 	
 	<ul>
 			<% album.tracks.each{|position, track|%>
