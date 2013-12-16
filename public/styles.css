@@ -1,0 +1,70 @@
+#wrap {
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url('http://i.imgur.com/FXxlTYw.jpg') fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+/*http://i.imgur.com/TYG4zHD.jpg*/
+
+#header {
+	width: 100%;
+	font-family: 'Belleza', sans-serif;
+	font-size: x-large;
+	text-align: center;
+	color: #536c6f;
+}
+
+input {
+	align-content: center;
+	border-radius: 5px;
+  border: 0;
+  padding: 10px;
+}  
+
+input[type="submit"] {
+	border-radius: 5px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	color: #536c6f;
+}  
+
+.container {
+	width: 100%;
+	display: inline-table;
+	padding: 5px;
+	background-color: whitesmoke;
+	font-family: helvetica;
+	margin-top: 60px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	float: center;
+	border-radius: 5px;
+	color: #536c6f;
+/*	clear: both;*/
+}
+
+ul {
+	list-style: none;
+}
+
+#footer {
+	width: 100%;
+	padding: 5px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	clear: both;
+	text-align: center;
+	font-family: Helvetica,Arial,sans-serif;
+	color: #536c6f;
+}
+
+
+

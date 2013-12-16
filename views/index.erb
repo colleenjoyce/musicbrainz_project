@@ -1,0 +1,37 @@
+<div id="wrap">
+
+<div id="header">
+<h1>MUSICBRAINZ: A Musical Artist Database</h1>
+</div>
+
+<div class="box">
+		<form action="/" method="post">
+<!-- 		<label for="artist">Search Artist: </label> -->
+		<input type="text" id="artist" name="artist" placeholder="Search artist" />
+		<input type="submit" />
+		</form>
+</div>
+
+
+<div class="container">
+		<% if @artist != "" %>
+	<h1><%= @artist.name %></h1>
+		<% @artist.discography.each{|album| %>
+		<% if album.art_url != "" %>
+		<img src="<%= album.art_url %>">
+		<% end %>
+
+	<h3><%= @album_name %></h3>
+	
+	<ul>
+			<% album.tracks.each{|position, track|%>
+			<li><%= position.to_s + ". " + track %></li>
+			<% } %>
+	</ul>
+	<% } %>
+	<% end %>
+</div>
+
+<div id="footer">A project by Colleen Joyce and Isaac Torres | WDI NYC Proc</div>
+
+</div>
